@@ -1,0 +1,16 @@
+html {
+    font-size: 10px;
+    font-family: 'roboto';
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 26, 27);
+    min-height: 100vh;
+
+}

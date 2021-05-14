@@ -1,0 +1,10 @@
+.search-resoult {
+    flex-basis: 400px;
+    background-color: black;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
