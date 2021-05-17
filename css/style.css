@@ -101,7 +101,7 @@ html {
 }
 
 .search-resoult__item {
-  height: 400px;
+  min-height: 400px;
   -ms-flex-preferred-size: 400px;
       flex-basis: 400px;
   display: -webkit-box;
