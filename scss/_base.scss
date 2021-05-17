@@ -6,11 +6,17 @@ html {
 
 .wrapper {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    // flex-wrap: wrap;
+    // flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(26, 26, 27);
     min-height: 100vh;
 
+
+}
+
+.content {
+    width: 1600px;
+    margin: 0 auto;
 }
