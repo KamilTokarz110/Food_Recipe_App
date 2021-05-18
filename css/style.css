@@ -85,6 +85,24 @@ html {
   color: black;
 }
 
+.main .show {
+  display: block;
+  padding: 2rem 1.5rem;
+  background-color: #404041;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.main .dont-show {
+  display: none;
+}
+
 .search-resoult {
   display: -webkit-box;
   display: -ms-flexbox;

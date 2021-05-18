@@ -7,6 +7,7 @@ let searchString = '';
 //API
 const APP_ID = 'cd752456';
 const APP_KEY = '5674e31331fc13520e5c996c79b2471a';
+//Pagination
 button.addEventListener('click', ()=>{
     perPage += 20;
     fetchAPI();
@@ -16,6 +17,10 @@ searchForm.addEventListener('submit', (e)=>{
 e.preventDefault();
 searchString = e.target.querySelector('input').value;
 fetchAPI();
+setTimeout(function(){
+    button.classList.remove('dont-show');
+},1000);
+
 
 });
 async function fetchAPI (){
